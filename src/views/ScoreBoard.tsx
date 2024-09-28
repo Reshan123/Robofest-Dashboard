@@ -11,7 +11,7 @@ interface Team {
   visitedCells: string;
   distanceToGoal: string;
   distancePoints: string;
-}
+} 
 
 const ScoreBoard: FC = () => {
   const [teams, setTeams] = useState<Team[]>([]);
