@@ -13,6 +13,7 @@ interface Team {
   distancePoints: string;
 }
 
+
 const ScoreBoard: FC = () => {
   const [teams, setTeams] = useState<Team[]>([]);
 
